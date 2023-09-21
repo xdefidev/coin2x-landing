@@ -19,16 +19,19 @@ export default function Community() {
         </p>
       </div>
       <div className="flex flex-row px-4 gap-6 h-[100px] py-12 justify-center">
-        <Link href="">
+        <Link href="" target="_blank">
           <BsFillChatFill size={40} />
         </Link>
-        <Link href="">
+        <Link
+          href="https://x.com/coin12capital?s=21&t=Z_ExBochL-wLS-cel6694w"
+          target="_blank"
+        >
           <BsTwitter size={40} />
         </Link>
-        <Link href="">
+        <Link href="https://t.me/coin12capitalllc" target="_blank">
           <BsTelegram size={40} />
         </Link>
-        <Link href="">
+        <Link href="" target="_blank">
           <BsGithub size={40} />
         </Link>
       </div>
