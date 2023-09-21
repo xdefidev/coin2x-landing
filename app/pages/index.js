@@ -5,6 +5,7 @@ import SectionA from "@/components/SectionA";
 import SectionB from "@/components/SectionB";
 import Community from "@/components/Community";
 import { BsFillPlayFill } from "react-icons/bs";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,73 +33,66 @@ export default function Home() {
       <Community />
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors ">
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Resources
           </h2>
           <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            <li>Whitepaper</li>
-            <li>Brand Assets</li>
+            <Link href="/">
+              <li>Whitepaper</li>
+            </Link>
+            <Link href="/">
+              <li>Brand Assets</li>
+            </Link>
           </ul>
-        </a>
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors ">
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Products
           </h2>
           <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            <li>Whitepaper</li>
-            <li>Brand Assets</li>
+            <Link href="/">
+              <li>Blockchain</li>
+            </Link>
+            <Link href="/">
+              <li>Governance</li>
+            </Link>
           </ul>
-        </a>
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors ">
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Developers
           </h2>
           <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            <li>Whitepaper</li>
-            <li>Brand Assets</li>
+            <Link href="/">
+              <li>Documentation</li>
+            </Link>
           </ul>
-        </a>
+        </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors ">
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Foundation
           </h2>
           <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            <li>Whitepaper</li>
-            <li>Brand Assets</li>
+            <Link href="/">
+              <li>Contact</li>
+            </Link>
+            <Link href="/">
+              <li>Job oppurtunities</li>
+            </Link>
           </ul>
-        </a>
+        </div>
       </div>
     </main>
   );
