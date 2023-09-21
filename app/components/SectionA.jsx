@@ -18,7 +18,7 @@ export default function SectionA() {
           The world’s first unbiased currency
         </h2>
         <p className="text-xl pt-4">
-          Dai is a stable, decentralized currency that does not discriminate.
+          C12 is a stable, decentralized currency that does not discriminate.
           Any individual or business can realize the advantages of digital
           money.
         </p>

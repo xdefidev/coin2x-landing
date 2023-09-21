@@ -14,7 +14,7 @@ export default function Community() {
       <div className="flex flex-col align-center justify-center text-center">
         <h2 className="text-2xl font-semibold">Join the community</h2>
         <p className="pt-8 sm:px-40">
-          Learn more about Maker, chat with the team, others in the community,
+          Learn more about Coin2x, chat with the team, others in the community,
           and have your say in shaping the future of decentralized finance.
         </p>
       </div>

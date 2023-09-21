@@ -15,11 +15,11 @@ export default function Home() {
       <div className="w-full sm:max-w-4xl items-center justify-between text-sm my-40">
         <h1 className="text-5xl font-semibold">A better, smarter currency</h1>
         <p className="text-xl mt-6">
-          Dai can be used by anyone, anywhere, anytime.
+          C12 can be used by anyone, anywhere, anytime.
         </p>
         <div className="my-8 gap-4 flex">
           <button className="py-2 px-4  text-base rounded-2xl hover:bg-white hover:text-black ">
-            Use Dai
+            Use C12
           </button>
           <button className="py-2 px-4 bg-white text-black text-base rounded-2xl flex">
             <BsFillPlayFill size={25} />
@@ -41,11 +41,12 @@ export default function Home() {
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Resources
           </h2>
-          <p
+          <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            Find in-depth information about Next.js features and API.
-          </p>
+            <li>Whitepaper</li>
+            <li>Brand Assets</li>
+          </ul>
         </a>
 
         <a
@@ -57,11 +58,12 @@ export default function Home() {
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Products
           </h2>
-          <p
+          <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
+            <li>Whitepaper</li>
+            <li>Brand Assets</li>
+          </ul>
         </a>
 
         <a
@@ -73,11 +75,12 @@ export default function Home() {
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Developers
           </h2>
-          <p
+          <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
+            <li>Whitepaper</li>
+            <li>Brand Assets</li>
+          </ul>
         </a>
 
         <a
@@ -89,11 +92,12 @@ export default function Home() {
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
             Foundation
           </h2>
-          <p
+          <ul
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+            <li>Whitepaper</li>
+            <li>Brand Assets</li>
+          </ul>
         </a>
       </div>
     </main>
