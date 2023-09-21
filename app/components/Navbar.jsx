@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -18,7 +19,10 @@ export default function Navbar() {
           <li>Developers</li>
           <li>Learn</li>
           <li>Community</li>
-          <li>Explorer</li>
+          <Link href="https://explorer.coin12pay.com/" target="_blank">
+            {" "}
+            <li>Explorer</li>
+          </Link>
         </ul>
       </div>
     </div>
