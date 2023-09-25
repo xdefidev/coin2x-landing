@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SectionA() {
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 sm:h-[379px] h-[600px] w-full">
+    <div className="grid sm:grid-cols-2 grid-cols-1 h-[600px] w-full">
       <div className="bg-white flex justify-center align-center">
         <Image
           src="/lg-black.png"
