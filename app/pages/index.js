@@ -13,8 +13,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between py-6">
       <Navbar />
-      <div className="w-full sm:max-w-4xl items-center justify-between text-sm my-40">
-        <h1 className="text-5xl font-semibold">A better, smarter currency</h1>
+      <div className="w-full sm:max-w-4xl items-left px-4 justify-between text-sm my-40 flex flex-col">
+        <h1 className="text-5xl font-semibold px-2">
+          A better, smarter currency
+        </h1>
         <p className="text-xl mt-6">
           C12 can be used by anyone, anywhere, anytime.
         </p>
